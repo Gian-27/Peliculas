@@ -1,0 +1,57 @@
+/*FORMULARIO*/
+aside {
+    width: 28%;
+}
+
+main {
+    width: 68%;
+}
+
+.form-registro {
+    text-align: center;
+    background-color:rgb(169, 244, 219) ;
+
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-style: solid;
+    border-width: 0.4em;
+    padding-left: 1em;
+    width: 400px;
+    font-family: "calibri";
+    border-radius: 8px;
+}
+
+.form-registro p {
+    font-size:1em ;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.txt-align-left {
+    text-align: justify;
+    position: relative;
+}
+
+
+.input {
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    width: 90%;
+    background-color: #f3c1e1;
+}
+
+.button{
+    width: 95%;
+    margin-bottom: 1em;
+    margin-top: 0.1em;
+    border-radius: 4px;
+    background-color: #f3c1e1;
+    padding: 8px;
+}
+form h1 {
+    font-size: 22px;
+    text-align: justify;
+}
+

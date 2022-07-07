@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="shortcut icon" href="film-icon.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="film-icon.png" alt="icono" height="150px"> 
+        <h1>7moArte</h1>
+        <nav>
+            <a href="index.html" target="_blank">Feed</a>
+            <a href="peliculas.html" target="_blank">Peliculas</a>
+            <a href="series.html" target="_blank">Series</a>
+            <a href="registrarse.html" target="_blank">Registrarse</a>
+        </nav>
+    </header>
+        <h2 style="color:blue ;">Crear cuenta</h2>
+        <form class="form-registro" >
+            <div class="txt-align-left">
+                <h1>Complete el formulario para registrarse </h1>
+                <p>  Nombre:</p> <br> <input class="input" type="text" name="nombre" placeholder="Ingrese su nombre"> 
+            
+                <p> Apellido:</p> <br> <input class="input" type="text" name="apellido" placeholder="Ingrese su apellido"> 
+                <p> Email:</p> <br> <input  class="input" type="email" placeholder="@E-mail">
+                <p> Contraseña:</p> <br> <input class="input" type="password" maxlength="7" placeholder="*******"> 
+                <p> Sexo: </p>
+                <p> Masculino:<input type="radio" name="genero"><br></p>
+                <p> Femenino: <input type="radio" name="genero"></p>
+                <p> Seleccione su pais</p>
+                <p> <select name="pais" id="pais">
+                        <option value="arg">Argentina</option>
+                        <option value="bol">Bolivia</option>
+                        <option value="chil">Chile</option>
+                        <option value="mex">Mexico</option>
+                        <option value="uru">Uruguay</option>
+                    </select> </p>
+                <div class="options">
+                    <p> Indique sus generos de preferencia :</p>
+                    <p> <input type="checkbox" name="genero">Drama</p>
+                    <p> <input type="checkbox" name="genero">Terror</p>
+                    <p> <input type="checkbox" name="genero">Comedia</p>
+                    <p> <input type="checkbox" name="genero">Thriller</p>
+                    <p> <input type="checkbox" name="genero">Accion</p>
+                    <p> <input type="checkbox" name="genero">Sci-Fi</p>
+                    <p> <input type="checkbox" name="genero">Animacion</p>
+                    <p> <input type="checkbox" name="genero">Fantastico</p>
+                    <p> <input class="button" type="submit" value="Enviar"></p>
+                    <p>  <input class="button" type="reset" value="Cancelar"></p>
+                </div>
+            </div>
+        </form>
+        <footer> <p> <b> Pagina realizada por Gian &copy All rights reserved</b> </p></footer>
+</body>
+</html>
