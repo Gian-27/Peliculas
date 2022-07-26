@@ -58,7 +58,8 @@ form h1 {
     color: white;
     position: relative;
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    
 }
 .container {
     position: absolute;
@@ -79,6 +80,11 @@ form h1 {
     opacity: 0.5;
 }
 
-.navbar-item{
-    color: white;
+.nav-link {
+    color:#fff !important;
+}
+
+/*FOOTER*/
+footer {
+    padding: 0;
 }
